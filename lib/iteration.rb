@@ -9,7 +9,7 @@ def join_ingredients(src)
   row_counter = 0 
   phrases = []
   while row_counter < src.count() do
-    phrases << "I love " + src[row_counter][0] + "and" + src[row_counter][1] + "on my pizza"
+    phrases << "I love " + src[row_counter][0] + " and " + src[row_counter][1] + " on my pizza"
     row_counter +=1
   end
   return phrases
