@@ -27,6 +27,7 @@ def find_greater_pair(src)
      else
        number_array << src[row_counter][0]
      end
+     row_counter += 1
   end
   return number_array
 end
